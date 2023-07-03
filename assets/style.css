@@ -42,6 +42,7 @@ body {
 
 .social-link img {
 	width: 20px;
+	height: 20px;
 }
 
 #about {
@@ -72,8 +73,16 @@ body {
 
 .picture.left img, .picture.right img {
 	width: 100%;
-
 }
+
+.profile-picture, .instagram-logo {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+
+	margin: 2px
+}
+
 #about-me {
 	flex: 2
 }
