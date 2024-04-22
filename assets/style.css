@@ -225,6 +225,10 @@ body {
 }
 
 #contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 2rem;
 	margin: auto;
 	background-color: #D8D3A8 ;
 	position: relative;
