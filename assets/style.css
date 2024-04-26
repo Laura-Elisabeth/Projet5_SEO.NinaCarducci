@@ -285,6 +285,13 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+.local-business {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 1em 2em 1em 2em;
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
